@@ -1,0 +1,35 @@
+function countdownTick(swag:Int)
+{
+	switch (swag)
+	{
+		case 0, 1, 2, 3:
+			FlxG.camera.zoom += 0.05;
+		case 4:
+			FlxG.camera.zoom += 0.08;
+			PlayState.boyfriend.playAnim('hey', true);
+			PlayState.boyfriend.specialAnim = true;
+			PlayState.boyfriend.heyTimer = 0.5;
+
+			PlayState.dad.playAnim('cheer', true);
+			PlayState.dad.specialAnim = true;
+			PlayState.dad.heyTimer = 0.5;
+	}
+}
+
+function beatHit(curBeat:Int)
+{
+	PlayState.scriptDebugMode = true;
+	if (curBeat % 16 == 15 && curBeat > 16 && curBeat < 48)
+	{
+		PlayState.boyfriend.playAnim('hey', true);
+		PlayState.boyfriend.specialAnim = true;
+		PlayState.boyfriend.heyTimer = 0.6;
+
+		PlayState.dad.playAnim('cheer', true);
+		PlayState.dad.specialAnim = true;
+		PlayState.dad.heyTimer = 0.6;
+	}
+}
+
+function opponentNoteHit(note:Note)
+	FlxTween.tween(FlxG.camera, {zoom: PlayState.defaultCamZoom + 0.3}, (Conductor.stepCrochet * 4 / 1000), {ease: FlxEase.expoOut});

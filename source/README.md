@@ -1,0 +1,1 @@
+If you think it's hard to get to files quickly, just press `CTRL-SHIFT-P` in VSCode and type the name of the file you want to go to and it'll take you there faster than the Explorer.

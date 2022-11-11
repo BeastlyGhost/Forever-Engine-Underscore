@@ -1,0 +1,17 @@
+{
+    "file": "noteSplashes",
+    "type": "graphic",
+    "hasTwoAnims": true,
+    "overrideSettings": false,
+    "useDirectionInPrefix": false,
+    "splashAlpha": 1,
+    "splashScale": null,
+    "width": 210,
+    "height": 210,
+    "offsets": [
+        -20,
+        -10,
+        -20,
+        -10
+    ]
+}

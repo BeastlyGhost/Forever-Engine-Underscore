@@ -1,0 +1,10 @@
+function dadPosition(boyfriend:Character, gf:Character, dad:Character, camPos:FlxPoint)
+{
+	if (dad.curCharacter == 'gf')
+	{
+		dad.setPosition(gf.x, gf.y);
+		gf.visible = false;
+		if (PlayState.isStoryMode)
+			camPos.x += 600;
+	}
+}

@@ -1,0 +1,1 @@
+global scripts will be executed no matter what the song is

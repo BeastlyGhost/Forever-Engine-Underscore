@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="PlatformIcons.png">
+	<!-- Created with Adobe Animate version 18.0.2.126 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="GitHub0000" x="410" y="5" width="181" height="197"/>
+	<SubTexture name="GitHub0001" x="410" y="5" width="181" height="197"/>
+	<SubTexture name="GitHub0002" x="601" y="5" width="181" height="196" frameX="0" frameY="-1" frameWidth="181" frameHeight="197"/>
+	<SubTexture name="GitHub0003" x="601" y="5" width="181" height="196" frameX="0" frameY="-1" frameWidth="181" frameHeight="197"/>
+	<SubTexture name="NG0000" x="208" y="5" width="192" height="191" frameX="0" frameY="0" frameWidth="193" frameHeight="191"/>
+	<SubTexture name="NG0001" x="208" y="5" width="192" height="191" frameX="0" frameY="0" frameWidth="193" frameHeight="191"/>
+	<SubTexture name="NG0002" x="5" y="5" width="193" height="191"/>
+	<SubTexture name="NG0003" x="5" y="5" width="193" height="191"/>
+	<SubTexture name="Twitch0000" x="792" y="5" width="182" height="180"/>
+	<SubTexture name="Twitch0001" x="792" y="5" width="182" height="180"/>
+	<SubTexture name="Twitch0002" x="984" y="5" width="182" height="180"/>
+	<SubTexture name="Twitch0003" x="984" y="5" width="182" height="180"/>
+	<SubTexture name="Twitter0000" x="1176" y="5" width="193" height="162"/>
+	<SubTexture name="Twitter0001" x="1176" y="5" width="193" height="162"/>
+	<SubTexture name="Twitter0002" x="1379" y="5" width="193" height="161" frameX="0" frameY="0" frameWidth="193" frameHeight="162"/>
+	<SubTexture name="Twitter0003" x="1379" y="5" width="193" height="161" frameX="0" frameY="0" frameWidth="193" frameHeight="162"/>
+	<SubTexture name="YT0002" x="1582" y="5" width="174" height="126"/>
+	<SubTexture name="YT0003" x="1582" y="5" width="174" height="126"/>
+</TextureAtlas>

@@ -1,0 +1,11 @@
+{
+    "box": "dialogueBox-evil",
+    "boxState": "normal",
+    "dialogue": [
+        {
+            "portrait": "bf",
+            "expression": "normal",
+            "text": "your mom"
+        }
+    ]
+}

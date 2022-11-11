@@ -1,0 +1,41 @@
+{
+    "songs": [
+        {
+            "name": "Cocoa",
+            "character": "parents-christmas",
+            "colors": [
+                141,
+                165,
+                206
+            ]
+        },
+        {
+            "name": "Eggnog",
+            "character": "parents-christmas",
+            "colors": [
+                141,
+                165,
+                206
+            ]
+        },
+        {
+            "name": "Winter-Horrorland",
+            "character": "monster",
+            "colors": [
+                141,
+                165,
+                206
+            ]
+        }
+    ],
+    "locked": false,
+    "weekCharacters": [
+        "parents-christmas",
+        "bf",
+        "gf"
+    ],
+    "weekName": "RED SNOW",
+    "weekImage": "week5",
+    "hideStoryMode": false,
+    "hideFreeplay": false
+}

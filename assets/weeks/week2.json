@@ -1,0 +1,41 @@
+{
+    "songs": [
+        {
+            "name": "Spookeez",
+            "character": "spooky",
+            "colors": [
+                30,
+                45,
+                60
+            ]
+        },
+        {
+            "name": "South",
+            "character": "spooky",
+            "colors": [
+                30,
+                45,
+                60
+            ]
+        },
+        {
+            "name": "Monster",
+            "character": "monster",
+            "colors": [
+                30,
+                45,
+                60
+            ]
+        }
+    ],
+    "locked": false,
+    "weekCharacters": [
+        "spooky",
+        "bf",
+        "gf"
+    ],
+    "weekName": "Spooky Month",
+    "weekImage": "week2",
+    "hideStoryMode": false,
+    "hideFreeplay": false
+}

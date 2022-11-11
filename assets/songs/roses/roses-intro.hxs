@@ -1,0 +1,10 @@
+function songIntroCutscene()
+{
+	PlayState.comboHUD.visible = false;
+	FlxG.sound.play(Paths.sound('ANGRY_TEXT_BOX'));
+	new FlxTimer().start(1, function(tmr:FlxTimer)
+	{
+		PlayState.comboHUD.visible = true;
+		PlayState.contents.callTextbox();
+	});
+}

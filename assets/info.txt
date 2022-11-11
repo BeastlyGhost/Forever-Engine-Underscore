@@ -1,0 +1,7 @@
+NOTICE that I've felt the need to add here
+
+Forever Engine's assets *cannot* be used outside Forever Engine
+
+nor can Underscore's custom assets be used anywhere outside of Underscore
+
+according to Forever Engine's artists and Underscore's artists, the use of said assets on other projects is strictly prohibited.

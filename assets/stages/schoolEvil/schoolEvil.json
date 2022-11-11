@@ -1,0 +1,17 @@
+{
+    "spawnGirlfriend": true,
+    "defaultZoom": 1.05,
+    "camSpeed": 1,
+    "dadPos": [
+        -50,
+        150
+    ],
+    "gfPos": [
+        480,
+        400
+    ],
+    "bfPos": [
+        970,
+        670
+    ]
+}

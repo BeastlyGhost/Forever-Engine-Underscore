@@ -1,0 +1,41 @@
+{
+    "songs": [
+        {
+            "name": "Senpai",
+            "character": "senpai",
+            "colors": [
+                206,
+                106,
+                169
+            ]
+        },
+        {
+            "name": "Roses",
+            "character": "senpai",
+            "colors": [
+                206,
+                106,
+                169
+            ]
+        },
+        {
+            "name": "Thorns",
+            "character": "spirit",
+            "colors": [
+                206,
+                106,
+                169
+            ]
+        }
+    ],
+    "locked": false,
+    "weekCharacters": [
+        "senpai",
+        "bf",
+        "gf"
+    ],
+    "weekName": "hating simulator ft. moawling",
+    "weekImage": "week6",
+    "hideStoryMode": false,
+    "hideFreeplay": false
+}

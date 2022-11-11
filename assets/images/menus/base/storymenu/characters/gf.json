@@ -1,0 +1,14 @@
+{
+	"image": "gf/gf",
+	"position": [
+		0,
+		25
+	],
+	"scale": 0.5,
+	"flipX": false,
+	"idleAnim": [
+		"gf idle",
+		24,
+		true
+	]
+}

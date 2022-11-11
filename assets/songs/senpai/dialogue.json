@@ -1,0 +1,21 @@
+{
+    "box": "dialogueBox-pixel",
+    "boxState": "normal",
+    "song": "Lunchbox",
+    "songFadeIn": 1,
+    "songFadeOut": 2.2,
+    "dialogue": [
+        {
+            "portrait": "senpai",
+            "expression": "normal",
+            "text": "Ah, a new fair maiden has come \nin search of true love!"
+        },
+        {
+            "text": "A serenade between gentlemen \nshall decide where her beautiful \nheart shall reside."
+        },
+        {
+            "portrait": "bf-pixel",
+            "text": "Beep bo bop"
+        }
+    ]
+}

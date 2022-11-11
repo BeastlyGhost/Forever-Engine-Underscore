@@ -1,0 +1,41 @@
+{
+    "songs": [
+        {
+            "name": "Pico",
+            "character": "pico",
+            "colors": [
+                111,
+                19,
+                60
+            ]
+        },
+        {
+            "name": "Philly-Nice",
+            "character": "pico",
+            "colors": [
+                111,
+                19,
+                60
+            ]
+        },
+        {
+            "name": "Blammed",
+            "character": "pico",
+            "colors": [
+                111,
+                19,
+                60
+            ]
+        }
+    ],
+    "locked": false,
+    "weekCharacters": [
+        "pico",
+        "bf",
+        "gf"
+    ],
+    "weekName": "vs. Pico",
+    "weekImage": "week3",
+    "hideStoryMode": false,
+    "hideFreeplay": false
+}

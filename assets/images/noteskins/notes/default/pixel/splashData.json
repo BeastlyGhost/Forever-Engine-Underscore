@@ -1,0 +1,17 @@
+{
+    "file": "splash-pixel",
+    "type": "graphic",
+    "hasTwoAnims": true,
+    "overrideSettings": false,
+    "useDirectionInPrefix": false,
+    "splashAlpha": 1,
+    "splashScale": null,
+    "width": 34,
+    "height": 34,
+    "offsets": [
+        -120,
+        -75,
+        -120,
+        -75
+    ]
+}

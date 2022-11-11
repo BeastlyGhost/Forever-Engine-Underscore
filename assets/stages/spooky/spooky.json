@@ -1,0 +1,30 @@
+{
+    "spawnGirlfriend": true,
+    "defaultZoom": 1.05,
+    "camSpeed": 1,
+    "dadPos": [
+        100,
+        100
+    ],
+    "gfPos": [
+        300,
+        100
+    ],
+    "bfPos": [
+        770,
+        450
+    ],
+
+    "objects": [
+        {
+            "name": "hallowBack",
+            "image": "halloween_bg",
+            "position": [-200, -100],
+            "animations": [
+                ["idle", "halloweem bg0", 24, false],
+                ["lightning", "halloweem bg lightning strike", 24, false]
+            ],
+            "defaultAnimation": "idle"
+        }
+    ]
+}

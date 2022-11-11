@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+
+	<!-- _________________________ Application Settings _________________________ -->
+
+	<app title="Forever Engine Underscore" file="Forever Engine Underscore" packageName="com.beastlyghost.foreverengineunderscore" package="com.beastlyghost.foreverengineunderscore" main="Main" version="0.3" company="BeastlyGhost" />
+
+	<!--The flixel preloader is not accurate in Chrome. You can use it regularly if you embed the swf into a html file
+		or you can set the actual size of your file manually at "FlxPreloaderBase-onUpdate-bytesTotal"-->
+	<app preloader="flixel.system.FlxPreloader" />
+
+	<!--Minimum without FLX_NO_GAMEPAD: 11.8, without FLX_NO_NATIVE_CURSOR: 11.2-->
+	<set name="SWF_VERSION" value="11.8" />
+
+	<!-- ____________________________ Window Settings ___________________________ -->
+
+	<window width="1280" height="720" background="#000000" hardware="true" vsync="false" />
+	<window if="desktop" orientation="landscape" fullscreen="false" resizable="true" />
+	<window if="mobile" orientation="landscape" fullscreen="true" width="1280" height="720" resizable="false" allow-shaders="true" require-shaders="true" />
+
+	<!-- _____________________________ Custom Defines ____________________________ -->
+
+	<define name="DISCORD_RPC" if="desktop" unless="neko" />
+	<define name="VIDEO_PLUGIN" if="windows" unless="32bits || HXCPP_M32 || neko" />
+	<define name="GAME_UPDATER" if="desktop enableUpdater" /> <!-- thanks shadowmario -->
+	<define name="HAXE_EXTENSION" unless="web" />
+
+	<!-- comment or delete this line to disable Forever Engine developer names on the titlescreen -->
+	<define name="FOREVER_ENGINE_WATERMARKS" />
+
+	<!-- _____________________________ Path Settings ____________________________ -->
+
+	<set name="BUILD_DIR" value="export" />
+	<set name="BUILD_DIR" value="export/debug" if="debug" />
+	<set name="BUILD_DIR" value="export/release" unless="debug" />
+
+	<set name="BUILD_DIR" value="export/debug-x86"  if="HXCPP_M32 debug" />
+	<set name="BUILD_DIR" value="export/release-x86"  if="HXCPP_M32 release" />
+
+	<source path="source" />
+	<assets path="assets" />
+
+	<assets path="mods" if="desktop unstableBuild" />
+
+	<assets path="FE-CrashDialog.exe" type="template" if="windows release" />
+
+	<!-- _______________________________ Libraries ______________________________ -->
+
+	<haxelib name="flixel" />
+	<haxelib name="flixel-addons" />
+	<haxelib name="flixel-tools" />
+	<haxelib name="flixel-ui" />
+
+	<haxelib name="discord_rpc" if="DISCORD_RPC" />
+	<haxelib name="hxCodec" if="VIDEO_PLUGIN" />
+	<haxelib name="SScript" if="HAXE_EXTENSION" />
+
+	<haxelib name="hxcpp-debug-server" if="debug" />
+
+	<haxelib name="discord_rpc" if="DISCORD_RPC" />
+
+	<!-- ______________________________ Haxedefines _____________________________ -->
+
+	<haxedef name="hscriptPos" />
+	<haxeflag name="-dce no" />
+
+	<haxedef name="FLX_NO_FOCUS_LOST_SCREEN" />
+	<haxedef name="FLX_NO_DEBUG" unless="debug" />
+
+	<!-- Make's the game use less ram -->
+	<haxedef name="HXCPP_GC_BIG_BLOCKS" />
+
+	<!--Enable this for Nape release builds for a serious peformance improvement-->
+	<haxedef name="NAPE_RELEASE_BUILD" unless="debug" />
+
+	<haxedef name="HXCPP_STACK_LINE" unless="debug" />
+	<haxedef name="HXCPP_CHECK_POINTER" unless="debug" />
+
+	<haxedef name="HXC_DEBUG_TRACE" if="debug" />
+
+	<!-- _________________________________ Custom _______________________________ -->
+
+	<icon path="art/gameIcons/icon16.png" size='16' />
+	<icon path="art/gameIcons/icon32.png" size='32' />
+	<icon path="art/gameIcons/icon64.png" size='64' />
+	<icon path="art/gameIcons/icon128.png" size='128' />
+	<icon path="art/gameIcons/icon256.png" size='256' />
+	<icon path="art/gameIcons/icon512.png" size='512' />
+	<icon path="art/gameIcons/iconOG.png" />
+</project>

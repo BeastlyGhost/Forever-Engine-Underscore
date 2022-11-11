@@ -1,0 +1,33 @@
+function loadAnimations()
+{
+	addByPrefix('idle', 'Idle', 24, false);
+	addByPrefix('singUP', 'Up', 24);
+	addByPrefix('singRIGHT', 'Right', 24);
+	addByPrefix('singDOWN', 'Down', 24);
+	addByPrefix('singLEFT', 'Left', 24);
+
+	if (!isPlayer)
+	{
+		addOffset("idle", 0, -350);
+		addOffset("singLEFT", 22, -353);
+		addOffset("singDOWN", 17, -375);
+		addOffset("singUP", 8, -334);
+		addOffset("singRIGHT", 50, -348);
+		setCamOffsets(30, 330);
+	}
+	else
+	{
+		addOffset("idle", 0, -10);
+		addOffset("singRIGHT", -61, -14);
+		addOffset("singDOWN", -48, -31);
+		addOffset("singUP", -45, 11);
+		addOffset("singLEFT", 33, -6);
+		flipLeftRight();
+		setCamOffsets(0, -5);
+	}
+
+	playAnim('idle');
+	set('antialiasing', true);
+	set('flipX', false);
+	setBarColor([161,161,161]);
+}

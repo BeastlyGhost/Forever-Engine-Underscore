@@ -1,0 +1,78 @@
+{
+    "box": "speech_bubble_talking",
+    "boxState": "normal",
+    "dialogue": [
+        {
+            "portrait": "bf",
+            "expression": "normal",
+            "text": "hey"
+        },
+        {
+            "portrait": "bf",
+            "expression": "normal",
+            "text": "ai mano"
+        },
+        {
+            "portrait": "bf",
+            "expression": "normal",
+            "text": "tu conhece o mario?"
+        },
+        {
+            "portrait": "bf",
+            "expression": "normal",
+            "text": "que mario"
+        },
+        {
+            "portrait": "bf",
+            "expression": "smug",
+            "text": "aquele que te comeu atras do armario"
+        },
+        {
+            "portrait": "bf",
+            "expression": "smug",
+            "text": "idiota"
+        },
+        {
+            "portrait": "bf",
+            "expression": "mad",
+            "text": "Eu te odeio desgraçado."
+        },
+        {
+            "portrait": "bf-pixel",
+            "expression": "normal",
+            "text": "EU VOU CHUTAR SUA BUNDA.",
+            "boxState": "yell",
+            "scale": 1.4
+        },
+        {
+            "portrait": "bf",
+            "expression": "mad",
+            "text": "duvido.",
+            "boxState": "normal",
+            "scale": 0.8
+        },
+        {
+            "portrait": "bf",
+            "expression": "smug",
+            "text": "'kkkkkkjjjjj' .'`?!\nteste de quebra de linha.`?!\ndaora",
+            "speed": 10
+        },
+        {
+            "portrait": "bf",
+            "expression": "smug",
+            "text": "kkkkkk sua putinha estupida ãáâàèèêìíîóôùúùçñ"
+        },
+        {
+            "portrait": "bf",
+            "expression": "mad",
+            "text": "Cala a porra da boca...\nCala a porra da boca...... !!'? .''?!",
+            "boxState": "yell",
+            "speed": 0.5
+        },
+        {
+            "portrait": "bf",
+            "expression": "mad",
+            "text": "Serio!\nEu não acredito eu te odeio!"
+        }
+    ]
+}

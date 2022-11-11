@@ -1,0 +1,14 @@
+{
+	"image": "opponent/dad",
+	"position": [
+		0,
+		0
+	],
+	"scale": 0.5,
+	"flipX": false,
+	"idleAnim": [
+		"dad idle",
+		24,
+		true
+	]
+}

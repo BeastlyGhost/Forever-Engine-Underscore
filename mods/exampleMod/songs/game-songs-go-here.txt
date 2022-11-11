@@ -1,0 +1,1 @@
+folder needs to have both song json files for charts and ogg files for instrumental and (optionally) vocals

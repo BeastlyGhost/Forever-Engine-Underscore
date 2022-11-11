@@ -1,0 +1,1 @@
+game will look for fonts in this directory in case the "fontPath" parameter doesn't exist

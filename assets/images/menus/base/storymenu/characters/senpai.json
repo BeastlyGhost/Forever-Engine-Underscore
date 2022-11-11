@@ -1,0 +1,14 @@
+{
+	"image": "opponent/senpai",
+	"position": [
+		-55,
+		50
+	],
+	"scale": 1,
+	"flipX": false,
+	"idleAnim": [
+		"senpai idle",
+		24,
+		true
+	]
+}

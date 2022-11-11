@@ -1,0 +1,19 @@
+function loadAnimations()
+{
+	addByPrefix('idle', 'Dad idle dance', 24, false);
+	addByPrefix('singUP', 'Dad Sing Note UP', 24);
+	addByPrefix('singRIGHT', 'Dad Sing Note RIGHT', 24);
+	addByPrefix('singDOWN', 'Dad Sing Note DOWN', 24);
+	addByPrefix('singLEFT', 'Dad Sing Note LEFT', 24);
+
+	addOffset('idle', -5, 0);
+	addOffset('singUP', -6, 50);
+	addOffset('singDOWN', 0, -30);
+	addOffset('singLEFT', -10, 10);
+	addOffset('singRIGHT', 0, 27);
+
+	playAnim('idle');
+	set('antialiasing', true);
+	setBarColor([175, 102, 206]);
+	setOffsets(-120, 690);
+}

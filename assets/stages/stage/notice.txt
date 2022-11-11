@@ -1,0 +1,2 @@
+this stage is used as the default one for a lot of stuff on the engine
+never ever delete it by any means, unless you change the default stage to a new one

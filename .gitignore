@@ -1,0 +1,6 @@
+## VSCode
+export/
+.vscode/
+APIStuff.hx
+docs/_build
+**/.DS_Store
